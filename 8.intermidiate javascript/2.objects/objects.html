@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+
+<html>
+    
+    <head>
+        <meta charset="utf-8">
+        <title>internal javascript</title>
+        
+        
+        <script>
+            
+            
+            function area(a,b){
+                this.input1 = a;
+                this.input2 = b;
+                
+                this.getarea = function(){
+                    return this.input1 * this.input2;
+                }
+            }
+            
+            var input1 = prompt("enter first value");
+            var input2 = prompt("enter second value");
+            var result = 0;
+            
+            input1 = parseInt(input1);
+            input2 = parseInt(input2);
+            
+            var a1 = new area(input1,input2);
+            result = a1.getarea();
+            
+            console.log("area: " + result);
+            
+        </script>
+        
+        
+    </head>
+    
+    <body>
+        <h1>Heading</h1>
+    </body>
+</html>
