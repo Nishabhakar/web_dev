@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+
+<html>
+    
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="id-class selector">
+        <title>id-class selector</title>
+        <style>
+            /*
+            #selector{
+              property:value1; ==>decleration
+              property:value2; ==>decleration
+            }
+            */
+            #red-border{
+                border-style: solid;
+                color: blueviolet;
+                font-style: oblique;
+                
+            }
+            .red-border{
+                border-style: solid;
+                border-color: bisque;
+                font-style: oblique;
+                
+            }
+            #green-border{
+                
+                 font-style: italic;
+                 border-color: bisque;
+            }
+            .green-border{
+                
+                 font-style: italic;
+                 border-color: red;
+            }
+
+            
+        </style>
+    </head>
+    
+    <body>
+        <h1 class="green-border" id="red-border">Heading</h1>
+        <P class="green-border text-italics" id="red-border">Paragraph Text</P>
+    </body>
+</html>

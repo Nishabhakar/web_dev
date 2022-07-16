@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+
+<html>
+    
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content=" pseudo element selectors css">
+        <title> pseudo element selectors css</title>
+        <style type="text/css">
+            /*
+            selector: pseudo element{
+              property:value1; ==>decleration
+              property:value2; ==>decleration
+            }
+            */
+            h1::after{
+                contant:"!!!";
+            }
+            p::first-letter{
+                font-size: 200%;
+            }
+        </style>
+    </head>
+    
+    <body>
+        <h1>Heading</h1>
+        <p>this is a paragraph</p>
+    </body>
+</html>

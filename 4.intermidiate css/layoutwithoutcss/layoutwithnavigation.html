@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+
+<html>
+    
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="selectors css">
+        <title>selectors css</title>
+        <style type="text/css">
+            body{
+                width: 940px;
+                margin: 0, auto;
+                font: 10pt/1.5em "Georgia", arial;
+            }
+            header, section, article, aside, footer{
+                display: block
+            }
+            header, footer{
+                padding: 0px;
+                text-align: center;
+            }
+            aside{
+                float: left;
+            }
+            section{
+                float: right;
+                width: 700px;
+                padding-left: 20px;
+                border-left: 2px dotted #b2a497;
+            }
+            footer{
+                clear: both;
+                width: 940px;
+                height: 100px;
+                padding: 10px
+                border: dashed;
+            }
+            nav{
+                text-align: center;
+            }
+            nav ul{
+                list-style-type: none;
+                padding: 0;
+                margin-bottom: 0;
+            }
+            nav li{
+                display: inline-block;
+                margin: 0 0 0 50px;
+                width: 100px;
+            }
+        </style>
+        
+    </head>
+    
+    <body>
+        <header>
+            <h1>page layout 1</h1>
+        </header>
+        <hr>
+        <nav>
+        <aside>
+            <figure>
+                <img src="kitten1.jpg" height="100px" width="100px"/>
+                <figcaption>german breed</figcaption>
+            </figure>
+            <div>
+                <ul>
+                    <li><a href="#">home</a></li>
+                    <li><a href="#">contact</a></li>
+                    <li><a href="#">about</a></li>
+                </ul>
+            </div>
+        </aside>
+        <section>
+            <article>
+                <header>article 1</header>
+                <div>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</div>
+                <p>#end of article</p>
+            </article>
+            
+            <hr>
+            <article>
+                <header>article 1</header>
+                <div>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters </div>
+                <p>#end of article</p>
+        </article>
+            <hr>
+            <footer>#copyright</footer>
+        </section>
+        
+    </body>
+</html>
